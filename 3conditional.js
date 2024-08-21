@@ -44,16 +44,16 @@
 //         break;
 // }
 
-// let txt = "";
-// for(let i=1; i<=15; i++){
-//     txt += i + "\t";
-// }
-// console.log(txt);
+let txt = "";
+for(let i=1; i<=15; i++){
+    txt += i + "\t";
+}
+console.log(txt);
 
-let a = 1;
-do{
-    if(a==10)
-        continue;
-    console.log(a);
-    a++;
-}while (a<=15);
+// let a = 1;
+// do{
+//     if(a==10)
+//         continue;
+//     console.log(a);
+//     a++;
+// }while (a<=15);
