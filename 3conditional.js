@@ -7,6 +7,7 @@
 
 // console.log("Value of a :", a, typeof (a));
 // console.log("Value of b :", b, typeof (b));
+// console.log("Value of c :", c, typeof (b));
 
 // IF/ELSE
 
@@ -36,7 +37,7 @@
 //     case 1:
 //         console.log('Hello');
 //         break;
-//     case 2:
+// case 2:
 //         console.log('Sq');
 //         break;
 //     default:
@@ -44,16 +45,16 @@
 //         break;
 // }
 
-let txt = "";
-for(let i=1; i<=15; i++){
-    txt += i + "\t";
-}
-console.log(txt);
+// let txt = "";
+// for(let i=1; i<=15; i++){
+//     txt += i + "\t";
+// }
+// console.log(txt);
 
-// let a = 1;
-// do{
-//     if(a==10)
-//         continue;
-//     console.log(a);
-//     a++;
-// }while (a<=15);
+let a = 1;
+do {
+    if (a == 10)
+        continue;
+    console.log(a);
+    a++;
+} while (a <= 15);

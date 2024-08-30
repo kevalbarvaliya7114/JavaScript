@@ -48,4 +48,4 @@
 
 // hoisting
 console.log(a);
-var a="Hello";
+var a = "Hello";

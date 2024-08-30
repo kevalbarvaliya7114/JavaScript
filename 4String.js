@@ -1,9 +1,9 @@
 // string -> Like the array
 // template literal
 
-// let a=100;
+// let a = 100;
 // let data = "hello world";
-// let data='hello "swara" world';
+// let data = 'hello "swara" world';
 // let data=`hello's "swara" world`;
 // let data = "value of a is :"+ a;
 // let data = `value of a is : ${a + 20}`
@@ -11,17 +11,17 @@
 
 // Methods
 
-// let data = `JavaScript is one of the 3 languages all web developers must learn`;
+let data = "Hello World";
 // console.log(data);
 
 // length
-// console.log(data.length);
+console.log(data.length);
 
 // charAt(position) -> return char
-// console.log(data.charAt(50));
+// console.log(data.charAt(52));
 
 // charCodeAt(position) -> return char ASCII value
-// console.log(data.charCodeAt(10));
+// console.log(data.charCodeAt(0));
 
 // toUpperCase() -> return upper case string
 // console.log(data.toUpperCase());
@@ -30,7 +30,7 @@
 // console.log(data.toLowerCase());
 
 // split("") -> return spliting string
-// let data = "JavaScript is one of the 3 languages";
+// let data = "   JavaScript is one of the 3 languages";
 // console.log(data.split(""));
 
 // trim() -> remove both side space
@@ -45,19 +45,19 @@
 // padStart()
 // padEnd()
 // let data="1256";
-// console.log(data.padEnd(10,"x"));
-// console.log(data.padStart(10,"x"));
+// console.log(data.padEnd(12,"x"));
+// console.log(data.padStart(12,"x"));
 
 // slice(Start,end)
 
-let data= `JavaScript is a powerful programming language that can add interactivity to a website. It was invented by Brendan Eich in 1997.`
+// let data= `JavaScript is a powerful programming language that can add interactivity to a website. JavaScript is invented by Brendan Eich in 1997.`
 
 // console.log(data.slice(5,10));
 // console.log(data.slice(5));
 // console.log(data.slice(-5));
 // console.log(data.slice(-5,-2));
 
-// sunstring(start,end)
+// substring(start,end)
 
 // console.log(data.substring(11,30));
 // console.log(data.substring(11));
@@ -69,8 +69,8 @@ let data= `JavaScript is a powerful programming language that can add interactiv
 // console.log(data.substr(-14,10));
 
 // concat() => merge multiple string
-// let a="hello ", b="jasn ", c="olympic ";
-// console.log(data.concat(a,c,b));
+let a="hello ", b="jasn ", c="olympic ";
+console.log(data.concat(a,c,b));
 
 // replace
 console.log(data.replace("JavaScript is","it is"));

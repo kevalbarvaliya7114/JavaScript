@@ -3,11 +3,12 @@
 // let data = new Date;  // current date 
 // let data = new Date("2024-11-14"); // Manually Date  
 // let data = new Date(2021,1);   
-// let data = new Date(2021,1,14); 
+// let data = new Date(2021,0,14); 
 // let data = new Date(2021,1,14,25);   
 // let data = new Date(2021,1,14,25,33);   
-// let data = new Date(2021,1,14,25,33,10);   
+// let data = new Date(2021,1,14,23,33,10);   
 // let data = new Date(2021,1,14,25,33,10,300000);   
+// console.log(data);
 
 let data = new Date("2024-11-12 10:50:10:500")
 console.log(data);
