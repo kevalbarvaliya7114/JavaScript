@@ -21,18 +21,18 @@
 
 // Set Methods 
 
-// let data = new Set([1,2,3,4,5]);
-// console.log(data);
-// data.add(10);
-// data.delete(1);
-// data.entries();
-// console.log(data.has(5));
-// console.log(data.keys());
-// console.log(data.size);
-// console.log(data.values());
+let data = new Set([1,2,3,4,5]);
+console.log(data);
+data.add(10);
+data.delete(1);
+data.entries();
+console.log(data.has(5));
+console.log(data.keys());
+console.log(data.size);
+console.log(data.values());
 
-// let txt = "";
-// data.forEach((val,key) =>{
-//     txt += val + "~~~~~" + key + "\n"
-// })
-// console.log(txt);
+let txt = "";
+data.forEach((val,key) =>{
+    txt += val + "~~~~~" + key + "\n"
+})
+console.log(txt);
