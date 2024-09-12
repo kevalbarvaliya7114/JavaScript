@@ -115,11 +115,76 @@
 // 		b=total;
 // 	}
 // }
+// function sum(n) {
+//     return (n * (n + 1)) / 2;  
+// }
+
+// let n = 10;
+// console.log( sum(n));
+
+// function guess() {
+//     let p = Math.floor(Math.random() * 10) + 1;
+//     let guess = null;
+//     let a = 0;
+
+//     while (guess !== randomNumber) {
+//         guess = parseInt(prompt('Guess a number between 1 and 10:'), 10);
+//         a++;
+
+//         if (guess > randomNumber) {
+//             console.log('high');
+//         } else if (guess < randomNumber) {
+//             console.log('low');
+//         } else {
+//             console.log(a );
+//         }
+//     }
+// }
+
+// function vowel(str) {
+//     let vowels = 'aeiouAEIOU';
+//     let vowel = 0;
+//     let consonant = 0;
+
+//     for (let char of str) {
+//         if (vowels.includes(char)) {
+//             vowel++;
+//         } else if (char.toLowerCase() !== char.toUpperCase()) {
+//             consonant++;
+//         }
+//     }
+
+//     return { vowel, consonant };
+// }
+
+// let a = 'Hello World';
+// let { vowel, consonant } = VowelsAndConsonants(a);
+// console.log(vowel , consonant);
+
+// function LeapYear(year) {
+//     if (year % 4 === 0) {
+//         if (year % 100 === 0) {
+//             if (year % 400 === 0) {
+//                 return true;  
+//             } else {
+//                 return false; 
+//             }
+//         } else {
+//             return true;  
+//         }
+//     } else {
+//         return false; 
+//     }
+// }
+
+// // Example usage:
+// let
+ year = 2024;
+// console.log(LeapYear ? 'yes' : 'not ');
 // console.log(fibonacci());
 
-// function reverse(){
-//     let n = prompt("Enter the word");
-//     return n.split("").reverse().join("");
-// }
-// console.log(reverse());
-
+function reverse(){
+    let n = prompt("Enter the word");
+    return n.split("").reverse().join("");
+}
+console.log(reverse());
