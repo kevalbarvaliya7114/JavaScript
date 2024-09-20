@@ -41,18 +41,18 @@
 // console.log(sayHello.goodBy());
 // console.log(sayHello["hobbies"]);
 
-let hello = new Object();
-hello.name = "Keval";
-hello.age = 25
-hello.goodBye = function(){
-    return `good Bye ${this.name}`
-}
-hello.age = 60
-console.log(hello);
-console.log(hello.goodBye());
+// let hello = new Object();
+// hello.name = "Keval";
+// hello.age = 25
+// hello.goodBye = function(){
+//     return `good Bye ${this.name}`
+// }
+// hello.age = 60
+// console.log(hello);
+// console.log(hello.goodBye());
 
-delete hello.goodBye
-console.log(hello);
+// delete hello.goodBye
+// console.log(hello);
 
 // shallow copy & deep Copy
 // shallow copy
@@ -75,20 +75,20 @@ console.log(hello);
 
 
 // Deep Copy
-let data = [11,22,33,44];
-let a = [...data];
-data.pop();
-a.push(55);
-console.log("Source: ",data);
-console.log("Copying: ",a);
+// let data = [11,22,33,44];
+// let a = [...data];
+// data.pop();
+// a.push(55);
+// console.log("Source: ",data);
+// console.log("Copying: ",a);
 
-let hello = {
-    name: "Hello",
-    age: 15
-};
-let person = {...hello};
+// let hello = {
+//     name: "Hello",
+//     age: 15
+// };
+// let person = {...hello};
 
 
-delete hello.age
-console.log(hello);
-console.log(person);
+// delete hello.age
+// console.log(hello);
+// console.log(person);
